@@ -46,8 +46,8 @@ while True:
     URL=href['href']
     for fa in final:
         f.write(fa)
-        f.write('\t')
-    f.write(href['href'])
+        f.write('\n')
+    #f.write(href['href'])
     f.write('\n')
 f.close()
 winsound.Beep(2000, 1000)
