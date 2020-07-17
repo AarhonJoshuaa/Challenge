@@ -41,7 +41,7 @@ while True:
             a=''
         
     cnt=count()
-    final=sorted(new, key = lambda w : (len(utf8.get_letters(w)), next(cnt)),reverse = True)[:10]
+    final=sorted(new, key = lambda w : (len(utf8.get_letters(w)), next(cnt)),reverse = True)[:20]
     print(final)
     URL=href['href']
     for fa in final:
