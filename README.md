@@ -1,5 +1,5 @@
 
-Install these package before executing: \
+Install these package before executing: 
 =======
 
 	>> pip install beautifulsoup4
